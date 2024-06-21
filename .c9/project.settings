@@ -1,11 +1,15 @@
 {
+    "build": {
+        "@saveall": true
+    },
     "extensions": {
         "@aws.profile": "",
         "@aws.samcli.lambdaTimeout": 90000,
         "@editor.acceptSuggestionOnEnter": "on",
         "@editor.snippetSuggestions": "top",
         "@editor.suggest.preview": true,
-        "@editor.suggest.showMethods": true
+        "@editor.suggest.showMethods": true,
+        "@git.autofetch": true
     },
     "instance": {
         "@automaticShutdown": "30"
